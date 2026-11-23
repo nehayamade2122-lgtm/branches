@@ -6,3 +6,5 @@ resource "aws_instance" "Test" {
         name = var.name
     }
     }
+tags = {
+        name = var.name
